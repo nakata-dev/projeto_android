@@ -4,7 +4,7 @@
 /*fonte importada do computador */
 @font-face{
     font-family: 'Android';
-    src: url('../d010/fontes/idroid.otf') format('opentype');
+    src: url('../projeto_android/fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
