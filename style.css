@@ -16,7 +16,9 @@
     #1a5c37
     #063d1e
 */
-:root{              /*Raiz de toda a CSS, é aqui neste seletor que você adiciona todos as suas variáveis(VAR) */
+
+ /*Raiz de toda a CSS, é aqui neste seletor que você adiciona todos as suas variáveis(VAR) */
+:root{             
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
     --cor2: #3ddc84;
@@ -28,7 +30,9 @@
     --fonte-destaque:"Bebas Neue", Sans-serif;
     --fonte-android: 'Android', Sans-serif;
 }
-*{    /* Seletor global serve para todos os elementos presentes na minha página */
+
+/* Seletor global serve para todos os elementos presentes na minha página */
+*{    
     margin: 0px;
     padding: 0px;
 }
@@ -73,10 +77,12 @@ nav > a{
     border-radius: 5px;
     transition-duration: 0.5s;
 }
-nav > a:hover{  /*para criar uma seleção ao passar o cursor por cima*/
+/*para criar uma seleção ao passar o cursor por cima*/
+nav > a:hover{  
     background-color: var(--cor3);
     color:var(--cor4);
 }
+/*----------Aqui em Main se não for definido o máximo e o minímo de adaptação, a adaptação não vai funcionar--------*/
 main{
     min-width: 350px;  
     max-width: 800px;
@@ -137,9 +143,10 @@ div.video{
     padding-bottom: 58%; 
 }
 
+/*Responsividade do vídeo depende desta Div*/
 div.video>iframe{
     position: absolute;
-    top: 5%;  /*graças a essa configuração dentro do iframe que o vídeo vai se adaptar*/
+    top: 5%;  
     left: 5%;
     width: 90%;
     height: 90%;
